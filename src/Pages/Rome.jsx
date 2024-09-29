@@ -11,7 +11,7 @@ function Rome() {
 
 <div>
 <div
-  className="p-5 h-[100vh] w-[100vw] bg-cover bg-center"
+  className="p-5 h-screen w-screen bg-cover bg-center max-sm:h-[180vh] max-md:h-[180vh] sm:w-full md:h-[180vh] md:w-full lg:h-[100vh] lg:w-full  min-[760px]:h-[180vh] max-[1080px]:h-[180vh] "
   style={{
     backgroundImage:
       'url("https://images-prod.misbar.com/articlebody/investigation_llwajhs69.jpg")',
@@ -28,7 +28,7 @@ function Rome() {
 <h1 className=''>Mountains are large landforms that rise prominently above their surroundings, often reaching great heights with steep slopes. </h1>
 </div>
 </div>
-        <div className='flex w-[100%] justify-around  justify-end items-end h-[15vh] ' >
+<div className='flex w-[100%] justify-around  justify-end items-end h-[15vh] max-sm:flex-col max-md:flex-col max-sm:justify-around max-md:justify-around  max-md:items-center max-md:h-[90vh] max-sm:items-center max-sm:h-[90vh]  min-[760px]:justify-around h-[10vh] min-[760px]:text-center max-[1080px]:flex-col justify-center items-center  '  >
 
         <Card
    name="Oceans"

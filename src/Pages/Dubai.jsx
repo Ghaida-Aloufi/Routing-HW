@@ -7,7 +7,7 @@ export default function Dubai() {
 
 <div>
 <div
-  className="p-5 h-[100vh] w-[100vw] bg-cover bg-center"
+  className="p-5 h-screen w-screen bg-cover bg-center max-sm:h-[180vh] max-md:h-[180vh] sm:w-full md:h-[180vh] md:w-full lg:h-[100vh] lg:w-full  min-[760px]:h-[180vh] max-[1080px]:h-[180vh] "
   style={{
     backgroundImage:
       'url("https://images.pexels.com/photos/1661375/pexels-photo-1661375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
@@ -24,7 +24,7 @@ export default function Dubai() {
 <h1 className=''>The sea been a source of inspiration for cultures worldwide, influencing art, literature, and mythology. Despite its vastness, the sea is increasingly under threat from pollution, overfishing, and climate change, making its conservation more important than ever.</h1>
 </div>
 </div>
-        <div className='flex w-[100%] justify-around  justify-end items-end h-[15vh] ' >
+<div className='flex w-[100%] justify-around  justify-end items-end h-[15vh] max-sm:flex-col max-md:flex-col max-sm:justify-around max-md:justify-around  max-md:items-center max-md:h-[90vh] max-sm:items-center max-sm:h-[90vh]  min-[760px]:justify-around h-[10vh] min-[760px]:text-center max-[1080px]:flex-col justify-center items-center  '  >
         <Card
    name="Oceans"
    path="/Paris"
